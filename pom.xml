@@ -33,12 +33,12 @@
       <repository>
             <id>releases</id>
             <name>Internal Releases</name>
-            <url>http://127.0.0.1:8081/repository/maven-releases/</url>
+            <url>http://127.0.0.1:8080/nexus-webapp-2.14.0-01/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
+            <url>http://127.0.0.1:8080/nexus-webapp-2.14.0-01/content/repositories/snapshots/</url>
         </snapshotRepository>  
     </distributionManagement>
     <build>
